@@ -1,0 +1,125 @@
+html{
+    font-size: 62.5%;
+}
+
+*, 
+*:before, 
+*:after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* 1440 1170 */
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1210px;
+
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* ---------------------------------------------------------------- */
+/* -------------------------------HEADER----------------------------- */
+/* ---------------------------------------------------------------- */
+
+.header{
+    padding-top: 4rem;
+
+}
+
+/* 
+    @mixin flex($align: flex-start, $justify: flex-start, $wrap: nowrap) {
+        display: flex;
+        align-items: $align;
+        justify-content: $justify;
+        flex-wrap: $wrap;
+    }
+*/
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1a2b5f;
+}
+
+.logo__text {
+    color: #ffc87a;
+}
+
+.header__menu-item{
+    margin-left: 5rem;
+}
+
+.header__menu-item:last-child{
+    margin-left: 7rem;
+}
+
+.header__menu-link{
+    font-size: 1.6rem;
+    color: #1a2b5f;
+    transition: all 0.25s linear;
+}
+
+.header__menu-link:hover,
+.header__menu-link:active{
+    color: #ffc87a;
+}
+
+.header__login{
+    display: inline-block;
+    border: solid 1px;
+    border-radius: 6rem;
+
+    padding: 1.3rem 2.5rem;
+}
+
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
